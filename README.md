@@ -11,7 +11,7 @@ To use the component, you may refer to this [example](./src/app/app.component.ht
 <hls-vjs-player [options]="narrowband"></hls-vjs-player>
 ```
 
-While `narrowband` is a video.js options, definition can be found [here](./src/app/app.component.ts#L11-L17). 
+While `narrowband` is a [video.js options](https://docs.videojs.com/tutorial-options.html), definition can be found [here](./src/app/app.component.ts#L11-L17). 
 
 ```
   narrowband = { 
