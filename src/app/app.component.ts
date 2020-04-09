@@ -10,16 +10,18 @@ export class AppComponent {
 
   narrowband = { 
     autoplay: false,
+    poster: 'https://ep2-static.esquel.cn/test/video/narrowband/17f0e9eff2884f4fb0edf64f9e752880/0.jpg',
     sources: [{
-      src: 'https://mts-test.esquel.cloud/narrowband/output/8d6009db44d74c88a32ca70a9faf4051/narrow4/eel_pantry_4k-60fps-iphone_x.m3u8',
+      src: 'https://ep2-static.esquel.cn/test/video/narrowband/17f0e9eff2884f4fb0edf64f9e752880/PACKAGECONFIG_1586404979290/eel_pantry_4k-60fps-iphone_x.m3u8',
       type: 'application/x-mpegURL'
     }]
   };
 
   standard = {
     autoplay: false,
+    poster: 'https://ep2-static.esquel.cn/test/video/standard/d500c84911ca4db39d8adf933f3961a9/0.jpg',
     sources: [{
-      src: 'https://mts-test.esquel.cloud/normal/output/b729c4af064a49af988d4278cb0964b4/normal4/eel_pantry_4k-60fps-iphone_x.m3u8',
+      src: 'https://ep2-static.esquel.cn/test/video/standard/d500c84911ca4db39d8adf933f3961a9/PACKAGECONFIG_1586405394671/eel_pantry_4k-60fps-iphone_x.m3u8',
       type: 'application/x-mpegURL'
     }]
   };
