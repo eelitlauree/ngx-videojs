@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "ngx-videojs"
+    }
+  },
+  "defaultProject": "ngx-videojs",
+  "cli": {
+    "analytics": false
+  }
 }
