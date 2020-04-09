@@ -4,7 +4,7 @@ import videojs from 'video.js';
 @Component({
   selector: 'hls-vjs-player',
   template: `
-    <video #target class="video-js vjs-default-skin vjs-big-play-centered"  >
+    <video #target class="video-js vjs-default-skin vjs-big-play-centered" playsinline >
     </video>
   `,
   styleUrls: [
@@ -34,7 +34,7 @@ export class HlsVjsPlayerComponent implements OnInit, OnDestroy, AfterViewInit {
       autoplay: true,
       preload: 'auto',
       techOrder: ['html5'],
-      nativeControlsForTouch: true,
+      nativeControlsForTouch: false,
       fluid: true
     };
 
