@@ -23,7 +23,7 @@ While `narrowband` is a video.js options, definition can be found [here](./src/a
   };
 ```
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.0.
+[Demonstration](https://mts-test.esquel.cloud/player/index.html)
 
 ## Development server
 
